@@ -1,0 +1,27 @@
+@import "variables";
+@import "grid";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+}
+
+#header{
+  background: $background-yellow;
+  color: $text-light;
+  padding: $container-padding;
+}
+#lista{
+  li{
+    background: $background-gray;
+    color: $text-light;
+    padding: $container-padding;
+    margin: $margin;
+    &:hover{
+      background: $background-yellow;
+      cursor: pointer;
+    }
+  }
+}
