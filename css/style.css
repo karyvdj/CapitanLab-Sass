@@ -53,31 +53,48 @@
   font-family: Helvetica; }
 
 #header {
-  background: #EBB85D;
+  background: #ebb85d;
   color: white;
   padding: 20px; }
 
 #menu li {
-  background: #3E3F40;
+  background: #3e3f40;
   color: white;
   padding: 8px;
   margin: 10px; }
   #menu li:hover {
-    background: #EBB85D;
+    background: #ebb85d;
     cursor: pointer; }
 
 .ejercicio h1, .ejercicio p, .ejercicio h4 {
   margin-top: 25px; }
 .ejercicio ol {
   margin: 20px 40px; }
+  .ejercicio ol li {
+    padding: 5px; }
+    .ejercicio ol li input {
+      margin: 3% 25%; }
 
 .aside, footer {
-  background: #3E3F40;
+  background: #3e3f40;
   color: white;
   padding: 10px;
   text-align: center; }
   .aside p, footer p {
     font-size: 12px;
     padding: 20px; }
+
+@media (max-width: 1024px) {
+  .col-3 {
+    width: 33.333%; }
+
+  .col-6 {
+    width: 66.666%; }
+
+  #contenedor-aside {
+    width: 100%; } }
+@media (max-width: 480px) {
+  .col-3, .col-6 {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

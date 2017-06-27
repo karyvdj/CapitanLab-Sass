@@ -36,7 +36,7 @@
     @extend h1;
   }
   ol{
-    margin: 20px 40px;
+    @include list-style;
   }
 }
 .aside{
@@ -50,4 +50,22 @@
 
 footer{
   @extend .aside;
+}
+
+@media(max-width:1024px){
+  .col-3{
+    width: 33.333%;
+  }
+  .col-6{
+    width: 66.666%;
+  }
+  #contenedor-aside{
+    width: 100%;
+  }
+}
+
+@media(max-width:480px){
+  .col-3, .col-6{
+    width: 100%;
+  }
 }

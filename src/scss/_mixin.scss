@@ -3,3 +3,12 @@
   color: $text-light;
   padding: ($padd);
 }
+@mixin list-style (){
+  margin: 20px 40px;
+  li{
+    padding: 5px;
+    input{
+      margin: 3% 25%;
+    }
+  }
+}
