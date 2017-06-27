@@ -1,0 +1,63 @@
+@import variables
+@import grid
+@import mixin
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-family: $font
+
+#header
+  background: $background-yellow
+  color: $text-light
+  padding: $container-padding
+
+#menu
+  li
+    +dark-container(8px)
+
+    margin: $margin
+
+    &:hover
+      background: $background-yellow
+      cursor: pointer
+
+.ejercicio
+  h1
+    margin-top: 25px
+
+  p
+    @extend h1
+
+  h4
+    @extend h1
+
+  ol
+    +list-style
+
+.aside
+  +dark-container(10px)
+
+  text-align: center
+
+  p
+    font-size: $paragraph-size
+    padding: $container-padding
+
+footer
+  @extend .aside
+
+@media (max-width: 1024px)
+  .col-3
+    width: 33.333%
+
+  .col-6
+    width: 66.666%
+
+  #contenedor-aside
+    width: 100%
+
+@media (max-width: 480px)
+  .col-3, .col-6
+    width: 100%
