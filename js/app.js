@@ -9,7 +9,7 @@ var cargarPagina = function () {
 };
 
 
-var plantillaAlumna = "<li>"+ "__nombre__" + "__apellidoP__"+ "__apellidoM__"+
+var plantillaAlumna = "<li>"+ "__nombre__ " + "__apellidoP__ "+ "__apellidoM__"+
       "<br> __squad__"+
       "<input type='checkbox'>"+
       "</li>";

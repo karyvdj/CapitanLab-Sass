@@ -55,13 +55,13 @@
 #header {
   background: #ebb85d;
   color: white;
-  padding: 20px; }
+  padding: 3%; }
 
 #menu li {
   background: #3e3f40;
   color: white;
   padding: 8px;
-  margin: 10px; }
+  margin: 4%; }
   #menu li:hover {
     background: #ebb85d;
     cursor: pointer; }
@@ -73,7 +73,7 @@
   .ejercicio ol li {
     padding: 5px; }
     .ejercicio ol li input {
-      margin: 3% 25%; }
+      margin: 3% 20%; }
 
 .aside, footer {
   background: #3e3f40;
@@ -82,7 +82,7 @@
   text-align: center; }
   .aside p, footer p {
     font-size: 12px;
-    padding: 20px; }
+    padding: 3%; }
 
 @media (max-width: 1024px) {
   .col-3 {
