@@ -1,0 +1,5 @@
+@mixin dark-container ($padd){
+  background: $background-gray;
+  color: $text-light;
+  padding: ($padd);
+}

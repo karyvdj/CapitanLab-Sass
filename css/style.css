@@ -57,13 +57,27 @@
   color: white;
   padding: 20px; }
 
-#lista li {
+#menu li {
   background: #3E3F40;
   color: white;
-  padding: 20px;
+  padding: 8px;
   margin: 10px; }
-  #lista li:hover {
+  #menu li:hover {
     background: #EBB85D;
     cursor: pointer; }
+
+.ejercicio h1, .ejercicio p, .ejercicio h4 {
+  margin-top: 25px; }
+.ejercicio ol {
+  margin: 20px 40px; }
+
+.aside, footer {
+  background: #3E3F40;
+  color: white;
+  padding: 10px;
+  text-align: center; }
+  .aside p, footer p {
+    font-size: 12px;
+    padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
